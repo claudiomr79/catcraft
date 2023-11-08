@@ -113,7 +113,7 @@ footer{
 }
 @media (max-width: 768px){
     .flex-container{
-        flex-direction: column;
+        margin: auto;
     }
   header{
      font-size: 1.2rem;
