@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="es-AR">
   <head>
-    <meta
-      name="description"
-      content="si te gustan los juegos Garten of Banban, Poppy Playtime, Minecraft, etc. , entonces esta es tu página, sumate a nosotros, y a nuestro canal de youtube: https://www.youtube.com/@CatCraft1203"
-    />
-    <meta author="Catcraft" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Contacto - CatCraft | Envía tus sugerencias y mensajes</title>
+    <meta name="title" content="Contacto - CatCraft | Envía tus sugerencias y mensajes">
+    <meta name="description" content="¿Tienes sugerencias para CatCraft? ¡Envíanos un mensaje! Queremos saber qué juegos te gustaría ver: Garten of Banban, Poppy Playtime, Minecraft y más." />
+    <meta name="keywords" content="CatCraft contacto, sugerencias videos, canal gaming, Garten of Banban, Poppy Playtime, Minecraft, YouTube gaming Argentina" />
+    <meta name="author" content="CatCraft" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Spanish" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.catcraft.com.ar/pages/contacto.html" />
+    <meta property="og:title" content="Contacto - CatCraft | Envía tus sugerencias y mensajes" />
+    <meta property="og:description" content="¿Tienes sugerencias para CatCraft? ¡Envíanos un mensaje! Queremos saber qué juegos te gustaría ver." />
+    <meta property="og:image" content="https://www.catcraft.com.ar/media/catcraft.jpg" />
+    <meta property="og:site_name" content="CatCraft" />
+    <meta property="og:locale" content="es_AR" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.catcraft.com.ar/pages/contacto.html" />
+    <meta property="twitter:title" content="Contacto - CatCraft" />
+    <meta property="twitter:description" content="¿Tienes sugerencias para CatCraft? ¡Envíanos un mensaje!" />
+    <meta property="twitter:image" content="https://www.catcraft.com.ar/media/catcraft.jpg" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contacto - CatCraft",
+      "url": "https://www.catcraft.com.ar/pages/contacto.html",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "CatCraft",
+        "url": "https://www.catcraft.com.ar",
+        "sameAs": [
+          "https://www.youtube.com/@CatCraft1203"
+        ]
+      }
+    }
+    </script>
+    
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -33,71 +72,265 @@
       name="google-site-verification"
       content="VrK8Babak3Gijsidrd-230alrdGfSG3-LTSiEdHNv7U"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
-      rel="stylesheet"
-    />
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>CatCraft</title>
     <link rel="icon" type="image/x-icon" href="../media/catcraft.ico" />
+    <link rel="canonical" href="https://www.catcraft.com.ar/pages/contacto.html" />
+    <link rel="manifest" href="../manifest.json" />
   </head>
+  
   <body>
-    <header>
-      <a href="/" class="logo">
-        <img
-          src="../media/catcraft.jpg"
-          alt="catcraft"
-          width="45px"
-          height="45px"
-        />
-        <h3>Catcraft</h3>
-      </a>
-      <nav>
-        <a href="/">videos</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
-    </header>
-    <main>
-      <div class="flex-container-contacto">
-        <section id="contacto">
-          <form
-            action="https://formsubmit.co/0354fef917fac9b37813f4678287f15c"
-            method="POST"
-            class="form-flex"
-          >
-            <h1 class="titulo">Contacto</h1>
-            <p>Envianos tus mensajes y sugerencias!</p>
-            <input
-              type="text"
-              name="nombre"
-              placeholder="Nombre"
-              required
-              maxlength="25"
-              minlength="5"
-            />
-            <textarea
-              name="mensaje"
-              placeholder="Mensaje"
-              required
-              maxlength="150"
-            ></textarea>
-            <input type="submit" value="Enviar mensaje" />
-            <input
-              type="hidden"
-              name="_next"
-              value="https://www.catcraft.com.ar"
-            />
-            <input type="hidden" name="_captcha" value="false" />
-          </form>
-        </section>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-lg">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center fw-bold" href="../index.html">
+          <img
+            src="../media/catcraft.jpg"
+            alt="catcraft"
+            width="45"
+            height="45"
+            class="me-2 rounded-circle"
+          />
+          <span class="fs-3">CatCraft</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold fs-5" href="../index.html#videos">
+                <i class="bi bi-play-circle me-1"></i>Videos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold fs-5 active" href="#contacto">
+                <i class="bi bi-envelope me-1"></i>Contacto
+              </a>
+            </li>
+            <li class="nav-item">
+              <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="theme-checkbox">
+                  <input type="checkbox" id="theme-checkbox" />
+                  <div class="slider">
+                    <i class="sun-icon">☀</i>
+                    <i class="moon-icon">🌙</i>
+                  </div>
+                </label>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-    </main>
-    <footer>CATCRAFT | 2023</footer>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="text-center mb-5">
+              <h1 class="display-4 fw-bold text-primary mb-3">
+                <i class="bi bi-envelope-heart me-3"></i>
+                Contacto
+              </h1>
+              <p class="lead">¡Envíanos tus mensajes y sugerencias!</p>
+              <p class="text-muted">Me encanta recibir feedback de mis seguidores y conocer qué videos quieren ver.</p>
+            </div>
+            
+            <div class="card shadow-lg border-0">
+              <div class="card-body p-5">
+                <form
+                  action="https://formsubmit.co/0354fef917fac9b37813f4678287f15c"
+                  method="POST"
+                  class="needs-validation"
+                  novalidate
+                >
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <label for="nombre" class="form-label fw-semibold">
+                        <i class="bi bi-person me-2"></i>Nombre
+                      </label>
+                      <input
+                        type="text"
+                        class="form-control form-control-lg"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Tu nombre"
+                        required
+                        maxlength="25"
+                        minlength="5"
+                      />
+                      <div class="invalid-feedback">
+                        Por favor ingresa tu nombre (mínimo 5 caracteres).
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                      <label for="email" class="form-label fw-semibold">
+                        <i class="bi bi-envelope me-2"></i>Email (opcional)
+                      </label>
+                      <input
+                        type="email"
+                        class="form-control form-control-lg"
+                        id="email"
+                        name="email"
+                        placeholder="tu@email.com"
+                      />
+                    </div>
+                  </div>
+                  
+                  <div class="mb-4">
+                    <label for="mensaje" class="form-label fw-semibold">
+                      <i class="bi bi-chat-text me-2"></i>Mensaje
+                    </label>
+                    <textarea
+                      class="form-control form-control-lg"
+                      id="mensaje"
+                      name="mensaje"
+                      rows="6"
+                      placeholder="Escribe tu mensaje aquí... ¡Cuéntame qué juegos te gustaría ver!"
+                      required
+                      maxlength="500"
+                    ></textarea>
+                    <div class="form-text">Máximo 500 caracteres</div>
+                    <div class="invalid-feedback">
+                      Por favor escribe tu mensaje.
+                    </div>
+                  </div>
+                  
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                      <i class="bi bi-send me-2"></i>
+                      Enviar Mensaje
+                    </button>
+                  </div>
+                  
+                  <!-- FormSubmit hidden fields -->
+                  <input type="hidden" name="_next" value="https://www.catcraft.com.ar" />
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input type="hidden" name="_subject" value="Nuevo mensaje desde CatCraft" />
+                </form>
+              </div>
+            </div>
+            
+            <!-- Additional Contact Info -->
+            <div class="row mt-5">
+              <div class="col-md-6 mb-4">
+                <div class="card h-100 border-0 bg-light">
+                  <div class="card-body text-center">
+                    <i class="bi bi-youtube fs-1 text-danger mb-3"></i>
+                    <h5 class="card-title">Mi Canal de YouTube</h5>
+                    <p class="card-text">Suscríbete para no perderte ningún video nuevo</p>
+                    <a href="https://www.youtube.com/@CatCraft1203" class="btn btn-youtube" target="_blank">
+                      <i class="bi bi-youtube me-2"></i>
+                      Visitar Canal
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 mb-4">
+                <div class="card h-100 border-0 bg-light">
+                  <div class="card-body text-center">
+                    <i class="bi bi-controller fs-1 text-primary mb-3"></i>
+                    <h5 class="card-title">Mis Juegos Favoritos</h5>
+                    <p class="card-text">Garten of Banban, Poppy Playtime, Minecraft y más</p>
+                    <a href="../index.html#videos" class="btn btn-primary">
+                      <i class="bi bi-play-circle me-2"></i>
+                      Ver Videos
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <h5>
+              <i class="bi bi-person-circle me-2"></i>
+              CATCRAFT
+            </h5>
+            <p class="mb-0">Tu canal favorito de gaming</p>
+          </div>
+          <div class="col-md-6">
+            <h6>Sígueme en:</h6>
+            <a href="https://www.youtube.com/@CatCraft1203" class="text-white me-3" target="_blank">
+              <i class="bi bi-youtube fs-4"></i>
+            </a>
+          </div>
+        </div>
+        <hr class="my-3">
+        <p class="mb-0">&copy; 2025 CATCRAFT | Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Dark Mode Script -->
+    <script>
+      // Dark Mode Toggle with Switch
+      const themeCheckbox = document.getElementById('theme-checkbox');
+      const body = document.body;
+      
+      // Check for saved theme preference
+      const savedTheme = localStorage.getItem('catcraft-theme') || 'light';
+      if (savedTheme === 'dark') {
+        body.classList.add('dark-theme');
+        themeCheckbox.checked = true;
+      }
+      
+      themeCheckbox.addEventListener('change', () => {
+        body.classList.toggle('dark-theme');
+        const isDark = body.classList.contains('dark-theme');
+        
+        if (isDark) {
+          localStorage.setItem('catcraft-theme', 'dark');
+        } else {
+          localStorage.setItem('catcraft-theme', 'light');
+        }
+        
+        // Add a little bounce animation to the icons
+        const slider = themeCheckbox.parentElement.querySelector('.slider');
+        slider.style.transform = 'scale(1.05)';
+        setTimeout(() => {
+          slider.style.transform = '';
+        }, 150);
+      });
+    </script>
+    
+    <!-- Form Validation Script -->
+    <script>
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          var forms = document.getElementsByClassName('needs-validation');
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
   </body>
 </html>
