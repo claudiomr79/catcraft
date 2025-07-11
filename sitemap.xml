@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
 		<loc>https://www.catcraft.com.ar/</loc>
-		<lastmod>2025-07-10T00:00:00+00:00</lastmod>
+		<lastmod>2024-01-20T00:00:00+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.00</priority>
+		<!-- Videos destacados -->
+		<video:video>
+			<video:thumbnail_loc>https://i.ytimg.com/vi/q6viC_YYtas/hqdefault.jpg</video:thumbnail_loc>
+			<video:title>CatCraft - Video Destacado 1</video:title>
+			<video:description>Video destacado del canal CatCraft </video:description>
+			<video:content_loc>https://www.youtube.com/watch?v=q6viC_YYtas</video:content_loc>
+			<video:player_loc>https://www.youtube.com/embed/q6viC_YYtas</video:player_loc>
+			<video:duration>600</video:duration>
+			<video:publication_date>2024-01-20T00:00:00+00:00</video:publication_date>
+			<video:tag>gaming</video:tag>
+			<video:tag>catcraft</video:tag>
+			<video:tag>youtube</video:tag>
+		</video:video>
+		<video:video>
+			<video:thumbnail_loc>https://i.ytimg.com/vi/UWGng4lx8gk/hqdefault.jpg</video:thumbnail_loc>
+			<video:title>CatCraft - Video Destacado 2</video:title>
+			<video:description>Segundo video destacado del canal CatCraft </video:description>
+			<video:content_loc>https://www.youtube.com/watch?v=UWGng4lx8gk</video:content_loc>
+			<video:player_loc>https://www.youtube.com/embed/UWGng4lx8gk</video:player_loc>
+			<video:duration>480</video:duration>
+			<video:publication_date>2024-01-18T00:00:00+00:00</video:publication_date>
+			<video:tag>gaming</video:tag>
+			<video:tag>catcraft</video:tag>
+			<video:tag>youtube</video:tag>
+		</video:video>
 	</url>
 	<url>
 		<loc>https://www.catcraft.com.ar/pages/contacto.html</loc>
-		<lastmod>2025-07-10T00:00:00+00:00</lastmod>
+		<lastmod>2024-01-20T00:00:00+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.80</priority>
 	</url>
